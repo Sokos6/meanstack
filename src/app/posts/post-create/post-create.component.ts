@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
 
 
 export  class PostCreateComponent {
-onAddPost() {
-  alert('Post added');
-}
+  newPost = 'NO CONTENT';
+
+  onAddPost() {
+    this.newPost = 'The user\'s post';
+  }
 }
